@@ -1,0 +1,33 @@
+
+
+h1{text-align: center;}
+
+main{
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+.output{
+    width: 700px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+.deposit , .blance , .withdraw{
+    width: 220px;
+    float: left;
+    margin-bottom: 50px;
+    background-color: rgb(48, 0, 104);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+input{
+    padding: 15px;
+    font-size: 15px;
+}
+button{
+    padding: 15px;
+    font-size: 18px;
+    width: 100px;
+}
